@@ -1,0 +1,1 @@
+# wx-cross-page-communication
