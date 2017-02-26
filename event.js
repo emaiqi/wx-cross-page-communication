@@ -20,6 +20,7 @@ function on(name, self, callback) {
 	};
 	var tuples = events[name] || [];
 	tuples.push(tuple);
+	events[name] = tuples;
 }
 
 /**
